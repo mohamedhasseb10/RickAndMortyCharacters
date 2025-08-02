@@ -25,6 +25,14 @@ This feature is structured into three layers as a single cohesive module:
 - **Data layer:** DTOs, repository, and API integrations for characters.
 - **Presentation layer:** ViewModels for the list and details screens, and UI built using UIKit and SwiftUI.
 
+## Screenshots
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9faa387c-4534-4090-9373-ac989940a3b5" alt="Character List" width="30%" />
+  <img src="https://github.com/user-attachments/assets/030617b1-fa23-4f5c-8f16-294a89135740" alt="Character Detail" width="30%" />
+  <img src="https://github.com/user-attachments/assets/7fd13cc3-4de7-464c-97e1-63e358259099" alt="Filter View" width="30%" />
+</div>
+
 ---
 
 ## Architecture & Design
