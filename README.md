@@ -82,6 +82,7 @@ To run tests:
 ---
 
 ## Assumptions & Decisions
+- ViewModels and test code annotated with `@MainActor` to ensure thread safety.
 - Coordinators are used to decouple navigation from controllers.
 - All UI is programmatic (no Storyboards/XIB).
 - No third-party libraries, as required.
