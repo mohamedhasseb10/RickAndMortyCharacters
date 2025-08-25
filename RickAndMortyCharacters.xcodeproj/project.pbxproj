@@ -264,37 +264,19 @@
 			path = DTO;
 			sourceTree = "<group>";
 		};
-		A1E6A4FB2E3D02CA00B3B1AE /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				A1E6A4FA2E3D02CA00B3B1AE /* RemoteCharacterDataSource.swift */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
 		A1E6A4FD2E3D02CA00B3B1AE /* Remote */ = {
 			isa = PBXGroup;
 			children = (
+				A1E6A4FA2E3D02CA00B3B1AE /* RemoteCharacterDataSource.swift */,
 				A1E6A4FC2E3D02CA00B3B1AE /* RemoteCharacterDataSourceImpl.swift */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
 		};
-		A1E6A4FF2E3D02CA00B3B1AE /* Character */ = {
-			isa = PBXGroup;
-			children = (
-				A1E6A4F92E3D02CA00B3B1AE /* DTO */,
-				A1E6A4FB2E3D02CA00B3B1AE /* Protocol */,
-				A1E6A4FD2E3D02CA00B3B1AE /* Remote */,
-				A1E6A4FE2E3D02CA00B3B1AE /* CharacterRepositoryImpl.swift */,
-			);
-			path = Character;
-			sourceTree = "<group>";
-		};
 		A1E6A5002E3D02CA00B3B1AE /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				A1E6A4FF2E3D02CA00B3B1AE /* Character */,
+				A1E6A4FE2E3D02CA00B3B1AE /* CharacterRepositoryImpl.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -302,6 +284,8 @@
 		A1E6A5012E3D02CA00B3B1AE /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				A1E6A4FD2E3D02CA00B3B1AE /* Remote */,
+				A1E6A4F92E3D02CA00B3B1AE /* DTO */,
 				A1E6A5002E3D02CA00B3B1AE /* Repository */,
 			);
 			path = Data;
@@ -686,6 +670,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HXXFY9J4M8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RickAndMortyCharacters/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -712,6 +697,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HXXFY9J4M8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RickAndMortyCharacters/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

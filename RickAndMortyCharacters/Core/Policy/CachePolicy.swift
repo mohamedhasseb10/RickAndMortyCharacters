@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Cache Policy Protocol
-protocol CachePolicyProtocol: Sendable {
+protocol CachePolicyProtocol {
     /// Checks if the cached data is still valid
     /// - Parameter lastUpdateTime: The timestamp of the last cache update
     /// - Returns: Boolean indicating if cache is valid

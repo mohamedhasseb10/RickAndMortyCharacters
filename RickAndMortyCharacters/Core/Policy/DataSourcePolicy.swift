@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Data Source Policy
-enum DataSourcePolicy: Sendable {
+enum DataSourcePolicy {
     /// Always fetch from remote and update local storage
     case remoteOnly
     /// Only fetch from local storage
